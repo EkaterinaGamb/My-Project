@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: transparent linear-gradient(180deg, #281EFF 0%, #2DFF8C 100%) 0% 0% no-repeat padding-box;
+    height: 100vh;
+    display: flex;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container.text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-content h1 {
+    font-size: 10rem;
+    text-align: center;
+    font: normal normal normal 160px/231px Satisfy;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 36px #00000087;
+}
+
+.text-content h2 {
+    font-size: 2rem;
+    margin-top: 10px;
+    text-align: center;
+    font: normal normal normal 32px/38px Varela Round;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.text-content p {
+    font-size: 16px;
+    margin-top: 1em;
+    width: 1028px;
+    height: 60px;
+    direction: rtl;
+    text-align: center;
+    font: normal normal normal 16px/20px Varela Round;
+    color: #F9F9F9;
+}
+
+.container.form-area {
+    width: 1100px;
+    height: 73px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.form-area form {
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    flex-direction: row-reverse;
+}
+
+form .name,
+label {
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: sans-serif;
+}
+
+form .name {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    justify-content: center;
+}
+
+label {
+    cursor: default;
+}
+
+form .name input {
+    margin-top: 5px;
+    width: 418px;
+    height: 50px;
+    font-size: 2em;
+    background: #F6F6F624 0% 0% no-repeat padding-box;
+    border: 2px solid #FFFFFF;
+}
+
+form .cell-two label {
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: sans-serif;
+}
+
+form .cell-two {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    justify-content: center;
+}
+
+form .cell-two input {
+    margin-top: 5px;
+    width: 418px;
+    height: 50px;
+    font-size: 2em;
+    background: #F6F6F624 0% 0% no-repeat padding-box;
+    border: 2px solid #FFFFFF;
+}
+
+form .botton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form .botton input {
+    width: 206px;
+    height: 50px;
+    margin-top: 20px;
+    font-size: 1em;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+
+@media (max-width:280px) {
+    .container {
+        width: 80vw;
+        height: 90vh;
+        margin: auto;
+    }
+
+    .text-content h1 {
+        font-size: 3rem;
+    }
+
+    .text-content h2 {
+        font-size: 1rem;
+    }
+
+    .text-content p {
+        font-size: 1.1em;
+        width: 200px;
+        text-align: center;
+    }
+
+    .container .form-area {
+        width: 70vw;
+        height: 40vh;
+        margin-top: 60px;
+    }
+
+    .form-area form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    form .name input {
+        margin-top: 5px;
+        width: 200px;
+        height: 40px;
+        font-size: 2em;
+        background: transparent;
+        border: 2px solid white;
+    }
+
+    form .cell-two input {
+        margin-top: 5px;
+        width: 200px;
+        height: 40px;
+        font-size: 2em;
+        background: transparent;
+        border: 2px solid white;
+    }
+}
+
+@media (min-width:300px) and (max-width:767px) {
+    .container {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .text-content {
+        height: 45vh;
+        margin-top: 120px;
+    }
+
+    .text-content h1 {
+        font-size: 4rem;
+        text-align: center;
+        width: 300px;
+    }
+
+    .text-content h2 {
+        font-size: 1.2rem;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .text-content p {
+        text-align: center;
+        font-size: 1rem;
+        width: 300px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        line-height: 1.5;
+    }
+
+    .container .form-area {
+        width: 80vw;
+        height: 40vh;
+        margin-bottom: 120px;
+    }
+
+    .form-area form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    form .name input {
+        margin-top: 5px;
+        width: 300px;
+        height: 40px;
+        font-size: 2em;
+        background: transparent;
+        border: 2px solid white;
+    }
+
+    form .cell-two input {
+        margin-top: 5px;
+        width: 300px;
+        height: 40px;
+        font-size: 2em;
+        background: transparent;
+        border: 2px solid white;
+    }
+
+    form .cell-two {
+        margin-top: 20px;
+    }
+
+    form .botton input {
+        width: 300px;
+    }
+}
+
+@media (min-width: 768px) and (max-width:1400px) {
+    body {
+        display: flex;
+        overflow-x: hidden;
+    }
+
+    .container {
+        width: 60vw;
+        height: 70%;
+        margin: auto;
+    }
+
+    .container .text-content {
+        width: 70vw;
+        height: 60%;
+    }
+
+
+    .text-content h1 {
+        font-size: 5rem;
+    }
+
+    .text-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .text-content p {
+        font-size: 1.1em;
+        width: 300px;
+        text-align: center;
+    }
+
+    .container .form-area {
+        width: 70vw;
+        height: 40%;
+        margin-top: 0;
+    }
+
+
+    .form-area form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    form .cell-two {
+        margin-top: 20px;
+    }
+
+    form .name,
+    .cell-two label {
+        font-size: 1rem;
+        color: white;
+    }
+
+    form .name input {
+        margin-top: 5px;
+        width: 400px;
+        height: 40px;
+        font-size: 2em;
+        background: transparent;
+        border: 2px solid white;
+    }
+
+    form .cell-two input {
+        margin-top: 5px;
+        width: 400px;
+        height: 40px;
+        font-size: 2em;
+        background: transparent;
+        border: 2px solid white;
+    }
+
+    form .botton input {
+        width: 400px;
+        height: 40px;
+        font-size: 1.5em;
+    }
+}

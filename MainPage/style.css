@@ -1,0 +1,459 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./MuchaTseBle.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    position: fixed;
+    top: 0;
+    width: 300vw;
+    height: 8vh;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav li {
+    height: 8vh;
+}
+
+nav ul li a {
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font: normal normal normal 2rem Satisfy;
+    text-decoration: none;
+    color: rgb(222, 246, 255);
+}
+
+.myName {
+    margin-left: 10px;
+    font: normal normal normal 2rem Satisfy;
+    text-decoration: none;
+    color: rgb(222, 246, 255);
+    align-items: center;
+}
+
+.containerNav {
+    display: flex;
+    width: 100vw;
+    padding: 0 !important;
+    background-color: rgb(111, 107, 192);
+    opacity: 75%;
+}
+
+.logo {
+    width: 100px;
+}
+
+.navMain {
+    margin-left: 200px;
+}
+
+.navMain img {
+    height: 70%;
+    margin-top: 15px;
+}
+
+.navmain .myName {
+    margin-top: 15px;
+}
+
+.navBtns {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    margin-left: 20px;
+}
+
+.menuBtn {
+    color: white !important;
+}
+
+
+/*nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    position: fixed;
+    top: 0;
+    background-color: rgb(153, 142, 198);
+    opacity: 75%;
+    width: 100vw;
+    height: 8vh;
+    direction: rtl;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav li {
+    height: 8vh;
+}
+
+header nav ul li img {
+    margin-left: 300px;
+    height: 100%;
+}
+
+nav ul li a {
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font: normal normal normal 2rem Satisfy;
+    text-decoration: none;
+    color: rgb(222, 246, 255);
+}*/
+
+
+
+#mainPart {
+    direction: rtl;
+    margin-top: 8vh;
+    width: 100vw;
+    height: 33vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainPart .main {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    direction: rtl;
+}
+
+#mainPart .main h1 {
+    width: 700px;
+    font-weight: 300;
+    margin-bottom: 100px;
+    font-size: 1.5em;
+    text-align: center;
+    font: normal normal bold 5rem/7.375rem Heebo;
+    color: rgb(222, 246, 255);
+}
+
+#mainPart .main p {
+    width: 700px;
+    margin-bottom: 100px;
+    font-size: 1.5em;
+    text-align: center;
+    font: normal normal normal 1.25rem/1.875rem Heebo;
+    color: white;
+    direction: ltr;
+}
+
+#expirience {
+    background-color: rgb(85, 80, 192);
+    opacity: 75%;
+    width: 100vw;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .logo {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .logo {
+    width: 128px;
+    height: 100px;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 35px;
+    height: 35px;
+}
+
+#about {
+    background-color: rgb(111, 107, 192);
+    opacity: 75%;
+}
+
+#about h1 {
+    color: rgb(222, 246, 255);
+}
+
+#about p {
+    color: rgb(222, 246, 255);
+    direction: ltr;
+}
+
+#services {
+    height: 1400px;
+}
+
+#services .services {
+    text-align: center;
+    font-size: 2.2em;
+    padding-top: 80px;
+    color: rgb(222, 246, 255);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.services .servP {
+    text-align: center;
+    line-height: 1.5;
+    font-size: 1em;
+    color: rgb(222, 246, 255);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.portfolioImgs {
+    max-width: 1480px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows: repeat(2, 400px);
+    gap: 20px;
+    margin-top: 160px;
+}
+
+.box {
+    background-color: rgb(222, 246, 255);
+    border-radius: 16px;
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box .portTitle {
+    text-align: center;
+    margin-top: 15px;
+    color: rgb(66, 120, 206);
+}
+
+.box .portP {
+    text-align: center;
+    color: rgb(83, 128, 199);
+}
+
+.box .portImg {
+    width: 350px;
+    height: 200px;
+    border-radius: 16px 16px 0 0;
+}
+
+.form-area {
+    height: 800px;
+    background-color: rgb(111, 107, 192);
+    opacity: 75%;
+    background-size: cover;
+}
+
+.form-area .form {
+    padding-top: 80px;
+    margin: auto;
+    width: 600px;
+}
+
+.form h3 {
+    color: rgb(222, 246, 255);
+    font-size: 3em;
+    text-align: center;
+    width: 600px;
+}
+
+.form p {
+    color: rgb(222, 246, 255);
+    font-size: 2em;
+    text-align: center;
+    width: 600px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 600px;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+form .str,
+.str1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.str label,
+.str1 label {
+    color: rgb(222, 246, 255);
+    width: 500px;
+}
+
+.str input {
+    width: 500px;
+    height: 40px;
+    border: none;
+    border-bottom: 5px solid rgb(111, 107, 192);
+
+}
+
+.str1 input {
+    resize: none;
+    width: 500px;
+    height: 100px;
+    border: none;
+    border-bottom: 5px solid rgb(111, 107, 192);
+}
+
+.strSub input {
+    width: 150px;
+    height: 40px;
+    background-color: rgb(111, 107, 192);
+    color: rgb(222, 246, 255);
+}
+
+.footer {
+    height: 100px;
+    background-color: rgb(85, 80, 192);
+    opacity: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.socMedia {
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+
+.socMedia img {
+    width: 32px;
+    height: 32px;
+}
+
+.fn {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.fn h3 {
+    font-size: 1rem;
+    color: rgb(222, 246, 255);
+}
+
+@media screen and (max-width: 1200px) {
+
+    #mainPart {
+        height: 50vh;
+    }
+
+
+    #expirience img {
+        width: 12vw;
+    }
+}
+
+section {
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF7E9;
+    height: 66vh;
+    width: 100vw;
+}
+
+section img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+section h1 {
+    font: normal normal bold 2.1875rem/3.25rem Heebo;
+    color: rgb(222, 246, 255);
+}
+
+section p {
+    text-align: center;
+    font: normal normal normal 1.25rem/1.8125rem Heebo;
+    color: rgb(222, 246, 255);
+    width: 70%;
+}
+
+section #btn {
+    width: 13.5vw;
+    font: normal normal normal 1.25rem/1.875rem Heebo;
+    background-color: rgb(87, 82, 194);
+    border-radius: 10px;
+    margin: 1em;
+}
+
+section #btn a {
+    text-decoration: none;
+}
+
+section .link {
+    color: black;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1200px) {
+    section {
+        height: 80vh;
+        width: 100vw;
+    }
+
+    section h1 {
+        font: normal normal bold 1.5625rem/2.3125rem Heebo;
+    }
+
+    section p {
+        font: normal normal normal 0.9375rem/1.375rem Heebo;
+        width: 90%;
+    }
+
+    section #btn {
+        width: 36.5vw;
+        font: normal normal normal 0.625rem/1.1875rem Heebo;
+    }
+}

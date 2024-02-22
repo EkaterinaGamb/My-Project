@@ -1,0 +1,475 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 2220px;
+}
+
+header {
+    width: 100%;
+    height: 600px;
+    background: #0EE1E1 0% 0% no-repeat padding-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.text h1 {
+    text-align: right;
+    font: normal normal 900 66px/97px Heebo;
+    color: #000000;
+    font-size: 3.75rem;
+}
+
+.text p {
+    text-align: right;
+    font: normal normal normal 20px/29px Heebo;
+    letter-spacing: 0px;
+    color: #000000;
+    font-size: 1.25rem;
+    width: 800px;
+    direction: rtl;
+}
+
+.img-box {
+    margin-left: 140px;
+}
+
+.whatsappIcon {
+    width: 95px;
+    height: 95px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 100%;
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services {
+    width: 99vw;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.services img {
+    width: 65px;
+    height: 65px;
+
+}
+
+.services .part {
+    width: 400px;
+    height: 350px;
+    background: #F8F8F8 0% 0% no-repeat padding-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.part h3 {
+    font-size: 1.8rem;
+    text-align: right;
+    font: normal normal 900 30px/44px Heebo;
+    color: #0EE1E1;
+}
+
+.part p {
+    text-align: center;
+    font: normal normal normal 15px/22px Heebo;
+    color: #000000;
+    font-size: 1rem;
+    width: 300px;
+    direction: rtl;
+}
+
+.mainPart {
+    height: 1000px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.map-area {
+    width: 55%;
+    height: 100%;
+    background: #0EE1E1 0% 0% no-repeat padding-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map-area iframe {
+    width: 1200px;
+    height: 850px;
+}
+
+.form-area {
+    width: 45%;
+    height: 100%;
+    background: #F0FFFF 0% 0% no-repeat padding-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 450px;
+    height: 600px;
+}
+
+.box h3 {
+    font-size: 3rem;
+    text-align: right;
+    font: normal normal 900 46px/67px Heebo;
+    color: #090909;
+}
+
+.box p {
+    text-align: right;
+    font: normal normal normal 15px/22px Heebo;
+    color: #000000;
+    font-size: 1rem;
+    direction: rtl;
+    margin-top: 20px;
+}
+
+form {
+    width: 450px;
+    height: 450px;
+    text-align: right;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+form .userName,
+.email {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+
+.userName label {
+    text-align: right;
+    font: normal normal bold 13px/19px Heebo;
+    color: #2C2C2C;
+}
+
+.userName input {
+    width: 450px;
+    height: 50px;
+    border: none;
+    border-bottom: 4px solid #0EE1E1;
+    background-color: #E5EEFF;
+}
+
+.email label {
+    text-align: right;
+    font: normal normal bold 13px/19px Heebo;
+    color: #2C2C2C;
+}
+
+.email input {
+    width: 450px;
+    height: 50px;
+    border: none;
+    border-bottom: 4px solid #0EE1E1;
+    background-color: #E5EEFF;
+}
+
+form .info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info label {
+    text-align: right;
+    font: normal normal bold 13px/19px Heebo;
+    color: #2C2C2C;
+}
+
+.info input {
+    width: 450px;
+    height: 150px;
+    background-color: #E5EEFF;
+    border: none;
+    border-bottom: 4px solid #0EE1E1;
+    resize: none;
+}
+
+.submit input {
+    width: 450px;
+    height: 50px;
+    text-align: center;
+    font: normal normal bold 20px/28px Heebo;
+    color: #000000;
+    background: #0EE1E1 0% 0% no-repeat padding-box;
+    border: none;
+}
+
+.contacts {
+    width: 500px;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box1 {
+    width: 95px;
+    height: 95px;
+    background: #0EE1E1 0% 0% no-repeat padding-box;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 img {
+    width: 50px;
+    height: 50px;
+}
+
+@media (min-width: 280px) and (max-width:767px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .container {
+        height: 3000px;
+        width: 100vw;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100vw;
+        height: 400px;
+    }
+
+    .text h1 {
+        font-size: 2rem;
+        text-align: right;
+        width: 270px;
+    }
+
+    .text p {
+        font-size: 1rem;
+        text-align: right;
+        width: 270px;
+    }
+
+    .img-box {
+        margin-left: 200px;
+    }
+
+    header img {
+        width: 70px;
+        height: 60px;
+    }
+
+    .whatsappIcon {
+        display: none;
+    }
+
+    .services {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 1200px;
+    }
+
+    .services .part {
+        width: 270px;
+        height: 250px;
+    }
+
+    .part p {
+        width: 270px;
+    }
+
+    .mainPart {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 1200px;
+    }
+
+    .map-area {
+        height: 30%;
+        width: 100vw;
+        border: 1px solid #000;
+    }
+
+    .map-area iframe {
+        width: 270px;
+        height: 300px;
+    }
+
+    .form-area {
+        width: 100vw;
+        height: 70%;
+    }
+
+    .box {
+        width: 270px;
+    }
+
+    form {
+        width: 270px;
+    }
+
+    form .userName {
+        width: 270px;
+    }
+
+    .userName input {
+        width: 270px;
+        height: 40px;
+        border: none;
+        border-bottom: 5px solid #0EE1E1;
+        background-color: #E5EEFF;
+    }
+
+    .submit input {
+        width: 270px;
+        height: 50px;
+        background-color: #0EE1E1;
+        border: none;
+    }
+
+    .contacts {
+        width: 270px;
+        height: 200px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .box1 {
+        width: 60px;
+        height: 60px;
+        background-color: #0EE1E1;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box1 img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1400px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    header {
+        display: flex;
+        width: 100vw;
+        height: 400px;
+    }
+
+    .whatsappIcon {
+        display: none;
+    }
+
+    .img-box {
+        margin-left: 100px;
+    }
+
+    header img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .text h1 {
+        font-size: 3rem;
+        text-align: right;
+        width: 300px;
+    }
+
+    .text p {
+        font-size: 1rem;
+        text-align: right;
+        width: 300px;
+    }
+
+    .part p {
+        font-size: 1rem;
+        width: 100px;
+    }
+
+    .services .part {
+        width: 180px;
+        height: 270px;
+    }
+
+    .mainPart {
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .map-area {
+        width: 100%;
+        height: 50%;
+        background-color: #0EE1E1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .map-area iframe {
+        width: 500px;
+        height: 300px;
+    }
+
+    .form-area {
+        width: 100vw;
+        height: 500%;
+    }
+
+    .box {
+        width: 300px;
+    }
+
+    form {
+        width: 300px;
+    }
+
+    form .userName {
+        width: 300px;
+    }
+
+    .userName input {
+        width: 300px;
+        height: 40px;
+        border: none;
+        border-bottom: 5px solid #0EE1E1;
+        background-color: #E5EEFF;
+    }
+
+    .submit input {
+        width: 300px;
+        height: 50px;
+        background-color: #0EE1E1;
+        border: none;
+    }
+}

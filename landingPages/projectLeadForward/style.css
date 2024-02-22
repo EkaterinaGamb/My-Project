@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container .main-part {
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-part img {
+    position: absolute;
+    width: 100vw;
+    height: 70vh;
+}
+
+.main-part .text-area {
+    position: absolute;
+}
+
+.text-area h1 {
+    font-size: 5rem;
+    text-align: right;
+    font: normal normal bold 86px/113px Assistant;
+    color: #D3E10E;
+}
+
+.text-area h2 {
+    font-size: 1.25rem;
+    text-align: center;
+    margin-top: 40px;
+    font: normal normal normal 20px/26px Assistant;
+    color: #F9F9F9;
+    direction: rtl;
+}
+
+.container .second-part {
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-part form {
+    display: flex;
+    width: 1200px;
+    height: 80px;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.username {
+    display: flex;
+    flex-direction: column;
+}
+
+.username label {
+    text-align: right;
+    font: normal normal bold 16px/21px Assistant;
+    color: #011560;
+}
+
+.username input {
+    width: 400px;
+    height: 40px;
+    background: #F6F6F6 0% 0% no-repeat padding-box;
+    border: none;
+    border-bottom: 3px solid #D3E10E;
+}
+
+.e-mail {
+    display: flex;
+    flex-direction: column;
+}
+
+.e-mail label {
+    text-align: right;
+    font: normal normal bold 16px/21px Assistant;
+    color: #011560;
+}
+
+.e-mail input {
+    width: 400px;
+    height: 40px;
+    background: #F6F6F6 0% 0% no-repeat padding-box;
+    border: none;
+    border-bottom: 3px solid #D3E10E;
+}
+
+.submit {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.submit input {
+    width: 150px;
+    height: 40px;
+    font-size: 1rem;
+    background: #D3E10E 0% 0% no-repeat padding-box;
+    border: none;
+    font: normal normal bold 22px/30px Assistant;
+    color: #011560;
+}
+
+@media (min-width:280px) and (max-width:767px) {
+
+    .container {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .container .main-part {
+        width: 100vw;
+        height: 40vh;
+        margin: auto;
+        background-image: url(Path\ 15.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .main-part img {
+        display: none;
+    }
+
+    .text-area {
+        width: 280px;
+    }
+
+    .text-area h1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .text-area h2 {
+        font-size: 16px;
+        text-align: center;
+        width: 280px;
+    }
+
+    .second-part {
+        width: 100vw;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+
+    .second-part form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .username {
+        margin-top: 20px;
+    }
+
+    .username input {
+        width: 270px;
+        height: 40px;
+        background-color: #F6F6F6;
+        border-bottom: 3px solid #D3E10E;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+    }
+
+
+
+    .e-mail input {
+        width: 270px;
+        background-color: #D3E10E;
+        font-size: 20px;
+        border: none;
+        margin-top: 20px;
+    }
+}
+
+@media (min-width:768px) and (max-width:1400px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .container {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .container .main-part {
+        width: 100vw;
+        height: 70vh;
+        margin: auto;
+        background-image: url(Path\ 15.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .main-part img {
+        display: none;
+    }
+
+    .text-area {
+        margin-bottom: 100px;
+    }
+
+    .text-area h1 {
+        font-size: 3rem;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .container .second-part {
+        width: 100vw;
+        height: 40vh;
+    }
+
+    .second-part form {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+
+    .username label {
+        font-size: 1.5rem;
+    }
+
+
+    .e-mail input {
+        width: 400px;
+        background-color: #D3E10E;
+        font-size: 20px;
+        border: none;
+    }
+}
