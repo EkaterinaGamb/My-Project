@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(#c193c5, #7bc6cc);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    background-color: rgb(153, 142, 198);
+    opacity: 75%;
+    width: 100vw;
+    height: 7vh;
+    direction: rtl;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li {
+    height: 8vh;
+}
+
+nav ul li img {
+    margin-left: 5vw;
+    height: 86%;
+}
+
+nav ul li a {
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font: normal normal normal 3.5rem Satisfy;
+    text-decoration: none;
+    color: rgb(222, 246, 255);
+}
+
+#aboutProject {
+    margin-top: 1em;
+    width: 95vw;
+    height: 43vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    direction: rtl;
+}
+
+#aboutProject h1 {
+    font: normal normal 900 80px/118px Heebo;
+    color: rgb(222, 246, 255);
+}
+
+#aboutProject p {
+    font: normal normal normal 25px/37px Heebo;
+    color: rgb(222, 246, 255);
+    direction: ltr;
+}
+
+#aboutProject #btns {
+    display: flex;
+}
+
+#aboutProject button {
+    width: 8vw;
+    height: 3vh;
+    font: normal normal medium 40px/50px Heebo;
+    background: #fff;
+    border-radius: 13px;
+    margin: 1em;
+}
+
+.link {
+    color: blue;
+}
+
+#btns a {
+    text-decoration: none;
+}
+
+#icons {
+    background-color: rgb(222, 246, 255);
+    opacity: 75%;
+    box-shadow: 0px 0 px 20px wheat;
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons2 {
+    width: 230px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#icons img {
+    width: 100px;
+    height: 100px;
+}
+
+#projectImg {
+    width: 100vw;
+    height: 94vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#projectImg img {
+    width: 62vw;
+    height: 66vh;
+}
+
+footer {
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(153, 142, 198);
+    opacity: 75%;
+    font: normal normal normal 20px/29px Heebo;
+    color: rgb(222, 246, 255);
+}
+
+@media screen and (max-width:1200px) {
+    #aboutProject {
+        height: 60vh;
+    }
+
+    #aboutProject h1 {
+        text-align: center;
+        font: normal normal bold 65px/80px Heebo;
+    }
+
+    #aboutProject p {
+        font: normal normal normal 20px/40px Heebo;
+    }
+
+    .icons2 {
+        width: 110px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #icons img {
+        width: 50px;
+        height: 50px;
+    }
+
+    #aboutProject button {
+        width: 30vw;
+        font: normal normal medium 50px/60px Heebo;
+    }
+
+    #projectImg {
+        height: 80vh;
+    }
+
+    #projectImg img {
+        width: 80vw;
+        height: 50vh;
+    }
+
+    footer {
+        font: normal normal normal 15px/20px Heebo;
+    }
+}

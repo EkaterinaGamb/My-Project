@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url("./MuchaTseBle.jpg");
+    background-image: linear-gradient(#c193c5, #7bc6cc);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -193,8 +193,8 @@ nav ul li a {
 }
 
 .logo img {
-    width: 35px;
-    height: 35px;
+    width: 70px;
+    height: 70px;
 }
 
 #about {
